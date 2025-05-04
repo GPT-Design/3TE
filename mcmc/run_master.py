@@ -7,7 +7,9 @@ likelihood:
   planck_2018_highl_CamSpec.TTTEEE: null
 
 theory:
-  classy: null
+  external:
+    module: src.flrw_3te
+    class:  FLRWTheory
 
 params:
   # 3T_E freedom
